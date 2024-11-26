@@ -1,0 +1,182 @@
+body{
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #34485d;
+    padding: 20px;
+    text-align: center;
+}
+    h1{
+        color: #34485d;
+    }
+    
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #405061;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 20px;
+}
+
+section img {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+}
+
+section img{
+    float: left;
+    margin-right: 30px;
+}
+
+aside ul {
+    list-style: circle;
+    padding: 0;
+}
+
+section ul {
+    margin-left: 250px;
+}
+
+footer {
+    background-color: #636363;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+    text-decoration: underline;
+    
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+/* Estilo para a página de Avaliações */
+.avaliacoes h1 {
+    color: #34485d;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avaliacoes ul {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.avaliacoes ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 2.5;
+    list-style-position: inside; 
+    padding-left: 20px; 
+}
+
+/* Estilo para a página Fale Conosco */
+.fale-conosco h1 {
+    color: #34485d;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fale-conosco form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fale-conosco form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.fale-conosco form input,
+.fale-conosco form textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fale-conosco form button {
+    background-color: #34485d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fale-conosco form button:hover {
+    background-color: #34485d;
+}
+
+/* Estilo para a página Login */
+.login h1 {
+    color: #34485d;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.login form input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login form button {
+    background-color: #34485d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login form button:hover {
+    background-color: #34485d;
+}

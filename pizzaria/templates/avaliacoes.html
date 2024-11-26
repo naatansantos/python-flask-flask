@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<section class="avaliacoes">
+    <h1>Avaliações de nossos clientes</h1>
+    <ul>
+        {% for avaliacao in avaliacoes %}
+            <li><strong>{{ avaliacao.cliente }}:</strong> {{ avaliacao.comentario }}</li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}
